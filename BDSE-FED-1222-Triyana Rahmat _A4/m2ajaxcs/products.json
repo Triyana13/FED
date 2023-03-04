@@ -1,0 +1,40 @@
+{
+ "products": [{
+    
+       "name": "Mushrooms",
+       "imgPath": "img/products/mushroom.jpg",
+       "rupiah":"IDR 50.000",
+       "dollar":"SGD 3,26",
+       "euro" :"EUR 3,32",
+       "ringit":"MYR 15,21"
+
+    },
+    {
+       "name": "Potatos",
+       "imgPath": "img/products/potato.jpg",
+       "rupiah":"IDR 30.000",
+       "dollar":"SGD 1,95",
+       "euro" :"EUR 1,99",
+       "ringit":"MYR 9,13"
+     
+    },
+    {
+       "name": "carrots",
+       "imgPath": "img/products/carrot.jpg",
+       "rupiah":"IDR 20.000",
+       "dollar":"SGD 1,30",
+       "euro" :"EUR 1,33",
+       "ringit":"MYR 6,09"
+      
+    },
+    {
+       "name": "Tomatoes",
+       "imgPath": "img/products/tomatoes.jpg",
+       "rupiah":"IDR 15.000",
+       "dollar":"SGD 0,98",
+       "euro" :"EUR 1,0",
+       "ringit":"MYR 4,56"
+    
+    }
+]
+}
