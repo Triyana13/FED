@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <script src="admin.js" defer></script>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+
+<body>
+    <main>
+        <h1 class="hl">
+            ABC Learning Center Admin Page
+        </h1>
+        <section class="admin-interfaces1">
+            <div class="admin-left">
+                <h2 class="hl grey">Show data</h2>
+                <table border="1" style='border-collapse:collapse'>
+                    <tr>
+                        <th width=180px>name</th>
+                        <th width=180px>email</th>
+                        <th width=150px>Password</th>
+                    </tr>
+                </table>
+                <div id="data">
+
+                </div>
+            </div>
+            <div class="admin-right">
+                <form class="admin-right-form">
+                    <h2 class="grey">Edit form</h2>
+                    <input type="text" class="new-name" placeholder="Name"><br><br>
+                    <input type="email" class="new-email" placeholder="E-mail"><br><br>
+                    <input type="text" class="new-password" placeholder="Password"><br><br>
+                   
+
+                    <button class="btn" type="submit"  onclick="change()"> change</button>
+                    <button class="btn" type="submit"  onclick=""> cancel</button>
+                </form>
+            </div>
+        </section>
+        <h1 class="hl grey">Add & Clear Data</h1>
+        <section class="admin-interfaces2">
+
+
+
+
+
+            <div class="add-data">
+                <form class="add-data-form">
+                    <h3>Add new data</h3>
+                    <hr style="margin-top: -10px; color:greenyellow">
+                    <input type="text" class="add-name" placeholder="Name"><br><br>
+                    <input type="email" class="add-email" placeholder="E-mail"><br><br>
+                    <input type="text" class="add-password" placeholder="Password"><br><br>
+                    
+
+
+                    <button class="btn" onclick="addData()"> Submit</button>
+
+                </form>
+            </div>
+
+            <div class="clear-btn">
+                <button onclick="clearALL()">
+                    clear all data
+                </button>
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+    <div class="line">
+
+    </div>
+
+</body>
+
+</html>
